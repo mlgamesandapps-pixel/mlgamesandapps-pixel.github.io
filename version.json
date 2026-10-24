@@ -1,6 +1,6 @@
 {
-  "version_code": 67,
-  "version": "0.40.0",
-  "novedades": "Nuevo menú y pantallas con estilo mágico, efectos en los combates contra jefes, insignias de nivel y clima en los mapas.",
-  "novedades_en": "New magical menus, boss fight effects, level badges and weather on the maps."
+  "version_code": 69,
+  "version": "0.42.0",
+  "novedades": "Magos más grandes, deshacer entre oleadas, consejos para nuevos jugadores, mapa más grande ocultando la barra y velocidad recordada.",
+  "novedades_en": "Bigger mages, undo between waves, tips for new players, a bigger map by hiding the bar and remembered game speed."
 }
