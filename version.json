@@ -1,6 +1,6 @@
 {
-  "version_code": 69,
-  "version": "0.42.0",
-  "novedades": "Magos más grandes, deshacer entre oleadas, consejos para nuevos jugadores, mapa más grande ocultando la barra y velocidad recordada.",
-  "novedades_en": "Bigger mages, undo between waves, tips for new players, a bigger map by hiding the bar and remembered game speed."
+  "version_code": 70,
+  "version": "0.43.0",
+  "novedades": "Ahora hay 4 misiones por turno y son más fáciles para jugadores nuevos. Además: magos más grandes, deshacer entre oleadas y consejos.",
+  "novedades_en": "There are now 4 missions per round and they are easier for new players. Also: bigger mages, undo between waves and tips."
 }
