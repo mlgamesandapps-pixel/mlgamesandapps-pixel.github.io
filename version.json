@@ -1,6 +1,1 @@
-{
-  "version_code": 71,
-  "version": "0.44.0",
-  "novedades": "¡3 familias nuevas de criaturas, 11 magos que se consiguen con gemas, reacciones elementales y mapas especiales con caminos distintos! Además: libera a tus magos atrapados con un toque y consejos de mejoras.",
-  "novedades_en": "3 new creature families, 11 gem mages, elemental reactions and special maps with different paths! Plus: free trapped mages with one tap and upgrade tips."
-}
+{"version_code":73,"version":"0.44.2","novedades":"¡Nuevas criaturas, 11 magos de gemas, reacciones elementales y mapas especiales! Además: la barra de magos ya se ve completa en todas las pantallas.","novedades_en":"New creatures, 11 gem mages, elemental reactions and special maps! Plus: the mage bar now fits on every screen.","pase":true,"temporadas":{"1":{"inicio":"2026-11-12","fin":"2026-12-31"}}}
