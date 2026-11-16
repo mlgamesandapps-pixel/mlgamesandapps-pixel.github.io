@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magos vs Criaturas · Descárgalo gratis</title>
+<meta name="description" content="Magos vs Criaturas: defensa de torres para Android. Arma tu laberinto, recluta magos y defiende el cristal. Gratis en Google Play.">
+<meta property="og:title" content="Magos vs Criaturas · Gratis en Google Play">
+<meta property="og:description" content="Arma tu laberinto, recluta magos y defiende el cristal de dragones, orcos y más.">
+<meta property="og:image" content="https://mlgamesandapps-pixel.github.io/magos-banner.png">
+<style>
+  :root { --bg: #140a26; --panel: #22123d; --gold: #ffd25a; --text: #f3eaff; --muted: #b9a8d6; --green: #2fbf5b; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.5; }
+  main { max-width: 560px; margin: 0 auto; padding: 24px 16px 40px; text-align: center; }
+  .icon { width: 120px; height: 120px; border-radius: 26px; box-shadow: 0 6px 24px #0008; }
+  h1 { color: var(--gold); font-size: 1.9rem; margin: 14px 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 18px; }
+  .gift { background: var(--panel); border: 2px solid var(--gold); border-radius: 16px; padding: 14px 16px; margin: 0 0 20px; }
+  .gift strong { color: var(--gold); font-size: 1.15rem; display: block; }
+  .btn { display: block; background: var(--green); color: #fff; font-weight: 800; font-size: 1.3rem; text-decoration: none; padding: 18px 16px; border-radius: 16px; box-shadow: 0 6px 0 #1c7d3a; }
+  .btn:active { transform: translateY(3px); box-shadow: 0 3px 0 #1c7d3a; }
+  .free { color: var(--muted); font-size: 0.95rem; margin: 12px 0 22px; }
+  .banner { width: 100%; height: auto; border-radius: 14px; }
+  ul { list-style: none; padding: 0; margin: 20px 0 24px; }
+  li { background: var(--panel); border-radius: 12px; padding: 10px 14px; margin: 8px 0; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 0.85rem; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="magos-icono.png" alt="Ícono de Magos vs Criaturas" width="120" height="120">
+  <h1>Magos vs Criaturas</h1>
+  <p class="sub">Defensa de torres para Android</p>
+
+  <div class="gift" id="regalo">
+    <strong>🎁 Regalo de Navidad</strong>
+    Juega antes del 25 de diciembre y llévate gratis el Pase Premium de la Temporada 1, con 8 skins de invierno.
+  </div>
+
+  <a class="btn" id="descargar" href="https://play.google.com/store/apps/details?id=com.mlgamesandapps.magos">▶ Descargar en Google Play</a>
+  <p class="free">Gratis · Android 7.0 o superior</p>
+
+  <img class="banner" src="magos-banner.png" alt="Magos y criaturas enfrentados">
+
+  <ul>
+    <li>🧱 Arma tu propio laberinto con piedras rúnicas</li>
+    <li>🧙 28 magos y hechiceras con poderes únicos</li>
+    <li>🐉 45 criaturas y 250 niveles de campaña</li>
+  </ul>
+
+  <a class="btn" id="descargar2" href="https://play.google.com/store/apps/details?id=com.mlgamesandapps.magos">▶ Descargar en Google Play</a>
+
+  <footer>
+    <p><a href="index.html">MLGamesAndApps</a> · <a href="privacidad.html">Política de privacidad</a></p>
+  </footer>
+</main>
+<script>
+  // Pasa a Google Play el origen de la visita (utm_source, utm_medium, utm_campaign)
+  // para que Play Console muestre de qué red o anuncio vino cada instalación.
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var ref = "utm_source=" + (q.get("utm_source") || "web") +
+      "&utm_medium=" + (q.get("utm_medium") || "pagina") +
+      "&utm_campaign=" + (q.get("utm_campaign") || "jugar");
+    var url = "https://play.google.com/store/apps/details?id=com.mlgamesandapps.magos&referrer=" + encodeURIComponent(ref);
+    document.getElementById("descargar").href = url;
+    document.getElementById("descargar2").href = url;
+    // El aviso del regalo desaparece solo al terminar el evento.
+    if (new Date() >= new Date(2026, 11, 26)) document.getElementById("regalo").style.display = "none";
+  })();
+</script>
+</body>
+</html>
